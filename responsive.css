@@ -1,0 +1,25 @@
+@media (max-width:600px) {
+    #main{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 8% 23% 9% 60%;
+    }
+    #left-up-right h3{
+        font-size: 2vw;
+    }
+    #left-up-right h4{
+        display: none;
+    }
+    #left-center{
+        grid-column:  1 / 3;
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+    #left-bot p{
+        font-size: 1.6vw;
+    }
+    #right{
+        grid-column: 1 / 3;
+        grid-row: 4;
+        padding: 30px;
+    }
+}
